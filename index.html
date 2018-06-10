@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!--jquerry-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous">
+    </script>
+    <script src="resource/js/script.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hey there!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--css-->
+    <link rel="stylesheet" href="resource/css/cssprogress.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="resource/css/main.css" />
+    <link rel="stylesheet" href="resource/css/imgmodal.css">
+</head>
+
+<body onload="document.body.style.opacity='1'">
+    <!-- Modal for images -->
+    <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="modal_content">
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div>
+    <div class="jumbotron text-center" id="intro">
+        <h1 class="display-3 header">Duy Tang</h1>
+        <p class="lead">Bachelor of Science in Computer Science from University of Bridgeport</p>
+        <hr class="my-2">
+        <img src="resource/portraits.jpg" class="img-thumbnail rounded-circle" alt="Profile pic" width="200px" height="200px">
+        <br>
+        <br>
+
+        <a href="mailto:anhduytang@gmail.com">
+            <img src="resource/icons/Gmail.png" class="icon" title="Mail me!">
+        </a>
+        <a href="https://www.facebook.com/anhduytang" target="_blank">
+            <img src="resource/icons/facebook.png" class="icon" title="My Facebook page">
+        </a>
+        <a href="https://www.linkedin.com/in/duy-tang-927326119/" target="_blank">
+            <img src="resource/icons/linkedin.png" class="icon" title="My LinkedIn page">
+        </a>
+        <a href="https://github.com/DuyTang1112" target="_blank">
+            <img src="resource/icons/Github.png" class="icon" title="My GitHub repo">
+        </a>
+        <a href="skype:anhduytang?userinfo">
+            <img src="resource/icons/skype.png" class="icon" title="Skype me!">
+        </a>
+        <a href="resource/resume.docx">
+            <img src="resource/icons/resume.png" class="icon" title="Get a copy of my resume!">
+        </a>
+
+    </div>
+    <div id="main" class="container">
+        <blockquote class="blockquote" id="cover">
+            <p class="mb-0"></p>
+            <h3>
+                <i>
+                    <strong>About me:</strong>
+                </i>
+            </h3>
+            <footer class="blockquote-footer" id="about">
+                <cite title="Source Title" class="invisible">
+                    I really love coding. I used to code Pascal in my middle school (and actually win some prizes).
+                    <br> I have decently strong mathematical skills as well. I sincerely believe that the difference between
+                    a good and an awesome coder depends on how well he/she can do math.
+                    <br> I also have experience in web development and Android mobile application. Machine learning is something
+                    I would like to learn more. How cool is it that you can train a machine to think for you?
+                    <br> My dream is to build an AI system that can be actually useful or innovative that can touch million of
+                    people. I have some mediocre ideas, so please share with me and maybe we can build it together!
+                </cite>
+            </footer>
+        </blockquote>
+        <!--Education-->
+        <hr class="my-2">
+        <div id="education">
+            <h3>
+                <i>
+                    <strong>Education:</strong>
+                </i>
+            </h3>
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="#">
+                        <img src="resource/icons/universitybridgeportlogo.jpg" width="128px" height="128px">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <h4>
+                        <strong>University of Bridgeport</strong>
+                    </h4>
+                    <h5>Bachelor of Science in Computer Science, minor in Mathematics
+                        <br> GPA: 3.978
+                    </h5>
+                </div>
+
+                <div class="col" style="text-align: right">
+                    <h4>May 2018</h4>
+                </div>
+            </div>
+        </div>
+        <hr class="my-2">
+        <div class="skills">
+            <h3>
+                <i>
+                    <strong>Technical skills</strong>
+                </i>
+            </h3>
+            <p>Java</p>
+            <div class="ct">
+                <div class="skill">90%</div>
+            </div>
+            <br>
+
+            <p>Python</p>
+            <div class="ct">
+                <div class="skill">95%</div>
+            </div>
+            <br>
+
+            <p>C++</p>
+            <div class="ct">
+                <div class="skill">50%</div>
+            </div>
+            <br>
+
+            <p>C#</p>
+            <div class="ct">
+                <div class="skill">65%</div>
+            </div>
+            <br>
+
+            <p>HTML/CSS/Javascript</p>
+            <div class="ct">
+                <div class="skill">75%</div>
+            </div>
+            <br>
+            <!--Projects-->
+            <hr class="my-2">
+
+            <div id="projects">
+                <h3>
+                    <i>
+                        <strong>Some projects I did so far...</strong>
+                    </i>
+                </h3>
+                <br>
+                <div class="project">
+                    <div class="row">
+                        <div class="col">
+                            <h4>AT3 Picture Frame</h4>
+                            <ul>
+                                <li>
+                                    A picture frame that can display series of album images for different users in the order of appearance
+                                </li>
+                                <li>
+                                    The system makes uses of face recognition module to recognized each registered users and display their corresponding album
+                                    images which are stored on images hosting server - Flickr, by implementing Flickr API
+                                </li>
+                                <li>
+                                    Being the technical leader who’s in charge of researching and designing the system
+                                </li>
+                            </ul>
+                            <a href="https://github.com/DuyTang1112/AT-3-PictureFrame">GitHub source code</a>
+                        </div>
+                        <div class="col">
+                            <h4>Demo:</h4>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/smRjX31MIM0" frameborder="0" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="project">
+                    <div class="row">
+                        <div class="col">
+                            <h4>Shopping web application</h4>
+                            <ul>
+                                <li>
+                                    A small-scale prototype of a shopping web application using ASP.NET MVC framework and MS SQL Server
+
+                                </li>
+                                <li>
+                                    Allow the user to register as new user, select merchandise of different categories, modify cart and check out
+                                </li>
+                                <li>
+                                    Include admin privilege to add or delete products and modify product details
+                                </li>
+                                <li>
+                                    Implement AJAX and web cache service (CouchBase) for better web experience for user
+                                </li>
+                                <li>Implement layered architecture with proper design patterns (Façade, Factory, Adapter)</li>
+                            </ul>
+                            <a href="https://github.com/DuyTang1112/XYZShopping">GitHub source code</a>
+                        </div>
+                        <div class="col">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="resource/projects_screenshots/XYZShoppingApp/0.png" class="img-responsive project_screenshots">
+                                    </td>
+                                    <td>
+                                        <img src="resource/projects_screenshots/XYZShoppingApp/1.png" class="img-responsive project_screenshots">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="resource/projects_screenshots/XYZShoppingApp/2.png" class="img-responsive project_screenshots">
+                                    </td>
+                                    <td>
+                                        <img src="resource/projects_screenshots/XYZShoppingApp/3.png" class="img-responsive project_screenshots">
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <br>
+                <div class="project">
+                    <div class="row">
+                        <div class="col">
+                            <h4>Online Pharmacy Mobile Application</h4>
+                            <ul>
+                                <li>
+                                    An Android application which is a prototype for an online pharmacy store
+                                </li>
+                                <li>
+                                    Including database processing, user authentication, UI design and event handling
+                                </li>
+                                <li>
+                                    I was responsible for database processing and event handling logic
+                                </li>
+                                <li>Being the team leader who was also responsible for the development process and quality control</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="resource/projects_screenshots/Online Pharmacy Store/3.png" class="img-responsive project_screenshots">
+                                    </td>
+                                    <td>
+                                        <img src="resource/projects_screenshots/Online Pharmacy Store/4.png" class="img-responsive project_screenshots">
+                                    </td>
+                                
+                                    <td>
+                                        <img src="resource/projects_screenshots/Online Pharmacy Store/6.png" class="img-responsive project_screenshots">
+                                    </td>
+                                    <td>
+                                        <img src="resource/projects_screenshots/Online Pharmacy Store/7.png" class="img-responsive project_screenshots">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--new section here-->
+
+            <!--end of container-->
+        </div>
+        <br>
+        <br>
+        <hr>
+        <footer>
+            <h7>Contact information:
+                <a href="mailto:duytang@my.bridgeport.edu">
+                    duytang@my.bridgeport.edu
+                </a>
+            </h7>
+        </footer>
+
+</body>
+
+</html>
