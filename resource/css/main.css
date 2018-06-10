@@ -1,3 +1,6 @@
+a:hover{
+    text-decoration: none;
+}
 whitetext{
     text-emphasis-color: white;
 }
@@ -21,16 +24,14 @@ whitetext{
     opacity: .5;
 }
 
-a:hover{
-    text-decoration: none;
-}
+
 
 .icon:hover{
     opacity: 1;
 }
 
 #about{
-    background-color: rgba(250, 245, 245, 0.788);
+    background-color: rgba(250, 245, 245, 0.877);
 }
 
 .header {
@@ -63,7 +64,7 @@ body{
     text-align: center; /* Right-align text */
     padding-right: 20px; /* Add some right padding */
     line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; /* White text color */
+    color: black; /* White text color */
     border-radius: 9px;
     /*
     animation-name: skillanimation;
@@ -74,7 +75,7 @@ body{
     background-size: 35px 35px;
     background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.125) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.125) 50%, rgba(255, 255, 255, 0.125) 75%, transparent 75%, transparent);
     background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.125) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.125) 50%, rgba(255, 255, 255, 0.125) 75%, transparent 75%, transparent);
-    opacity: .65;
+    opacity: .60;
 }
 
 @-webkit-keyframes cssProgressActive {
@@ -111,3 +112,12 @@ td{
 #projects{
     background-color:rgb(243, 240, 230);
 }
+
+.project{
+    border-style: groove;
+    border-color: cadetblue;
+    border-radius: 15px 50px;
+    padding: 10px;
+}
+
+h2 { color: #7c795d; font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 0 0 24px; }
