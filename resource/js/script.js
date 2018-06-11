@@ -66,4 +66,11 @@ $(function(){
     span.onclick = function() { 
         modal.style.display = "none";
     };
+
+    //for contact button scroll down to the end of page
+    $("#contactBtn").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#contact-info").offset().top
+        }, 1000);
+    });
 });
