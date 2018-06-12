@@ -37,8 +37,7 @@ $(function(){
         var color=rainbow(numSteps,step);
         step+=1;
         $(this).css({
-            "width": $(this).text(), 
-            "background-color": color
+            "width": $(this).text()
         });
     });
 
