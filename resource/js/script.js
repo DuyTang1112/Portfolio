@@ -72,4 +72,23 @@ $(function(){
             scrollTop: $("#contact-info").offset().top
         }, 1000);
     });
+    var counter=0;
+    $('#projects').find(".tl-container").each(function(){
+        if (counter%2==0) {
+            $(this).addClass("left");
+            $(this).find('a').css({"text-align":"right"});
+            $(this).find('.project-time').css({"text-align":"right"});
+        }
+        else $(this).addClass("right");
+        counter+=1;
+    });
+    counter=0;
+    $('#activites').find(".tl-container").each(function(){
+        if (counter%2==0) {
+            $(this).addClass("left");
+            $(this).css({"text-align":"right"});
+        }
+        else $(this).addClass("right");
+        counter+=1;
+    });
 });

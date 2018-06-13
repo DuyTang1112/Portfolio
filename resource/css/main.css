@@ -118,8 +118,8 @@ td{
 .project{
     border-style: groove;
     border-color: rgb(95, 158, 160);
-    border-radius: 15px 50px;
-    padding: 15px;
+    border-radius: 15px ;
+    padding: 30px;
     transition: 0.5s ease;
 }
 a.project-link{
@@ -165,9 +165,9 @@ h2 {
 #contactBtn{
     display: inline-block;
     padding:0.35em 1.2em;
-    border:0.1em ridge #FFFFFF;
+    border:0.1em solid rgb(235, 194, 194);
     margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
+    border-radius:0.16em;
     box-sizing: border-box;
     text-decoration:none;
     font-weight:300;
